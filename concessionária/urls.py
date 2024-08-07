@@ -16,9 +16,17 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
+<<<<<<< HEAD
 from loja.views import index
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('Weslley ', views.index, name = 'Weslley'),
 ]
+=======
+from loja.views import Heloyse
+urlpatterns = [
+    path('admin/', admin.site.urls),
+    path('Heloyse', Heloyse, nome= "Heloyse")
+]
+>>>>>>> 92812b456486fa000b80379aa1bd2255e27f35a3
