@@ -3,7 +3,7 @@ from .views import *
 
 <<<<<<< HEAD
 def Weslley (request):
-    return (request, '/Weslley.html')
+    return render(request, '/Weslley.html')
 =======
 # Create your views here.
 def Heloyse(request):
